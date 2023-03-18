@@ -1,0 +1,518 @@
+body{
+   background-color: rgba(255, 255, 255, 1);
+   padding: 0px;
+   margin: 0px;
+   min-width: 200px;
+}
+
+.container{ 
+    width: 1920px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.header-text {
+    margin-right: 400px;
+}
+
+.header-text a{
+    margin-left: 100px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
+
+.header-text a:hover{
+    color: rgb(170, 0, 255);
+}
+
+.header-logo{
+    position: absolute;
+    left: 207px;
+}
+
+.logo{  
+    width: 200px;
+}
+
+/* SEARCH*/
+
+.poisk{
+    display: flex;
+    justify-content: center;
+}
+
+.header-bottom{
+    background-color: rgb(36, 36, 36);
+    padding-top: 10px;
+}
+
+.search{
+    margin-bottom: 10px;
+    padding: 14px 400px 14px 10px;
+    border-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+}
+
+.lupa{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 274px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Catalog */
+
+#catalog{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 210px;
+    height: 63px;
+    padding-left: 30px;
+    margin-left: 190px;
+    margin-top: -63px;
+}
+
+#xernya{
+    font-size: 0px;
+
+}
+
+#xernya.active{
+    position: absolute;
+    color: #fd0000;
+    transition: 300ms;
+    font-size: 18px;
+    top: 196px;
+    left: 430px;
+    background-color: rgba(221, 221, 221, 1);
+    width: 590px;
+    height: 370px;
+    z-index: 1;
+}
+
+.catalog{
+    position: absolute;
+    font-size: 24px;
+    font-family: cursive;
+    bottom: 16px;
+    right: 25px;
+}
+
+.img-catalog{
+    position: absolute;
+    left: 195px;
+    top: 155px;
+}
+
+.triagle{
+    height: 20px;
+}
+
+/* podCatalog */
+
+#podcatalog{
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    height: 400px;
+    margin-left: 190px;
+}
+
+
+#podcatalog{
+    margin-left: 190px;
+    text-indent: 36px;
+    line-height: 40px;
+}
+
+#podcatalog a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#podcatalog .onediv:hover{
+    color: #bb00ff;
+}
+
+#podcatalog .twodiv:hover{
+    color: #bb00ff;
+}
+
+#podcatalog .threediv:hover{
+    color: #bb00ff;
+}
+
+#podcatalog .fourdiv:hover{
+    color: #bb00ff;
+}
+
+#podcatalog .fivediv:hover{
+    color: #bb00ff;
+}
+
+#podcatalog .sixdiv:hover{
+    color: #bb00ff;
+}
+
+#podcatalog .sevendiv:hover{
+    color: #bb00ff;
+}
+
+#podcatalog .eightdiv:hover{
+    color: #bb00ff;
+}
+
+#podcatalog .ninediv:hover{
+    color: #bb00ff;
+}
+
+
+.main{
+    display: grid;
+}
+
+/* CARD 1 */
+
+.cardOne {
+    position: absolute;
+    background-color: rgb(237, 237, 237);
+    top: 220px;
+    left: 500px;
+    width: 240px;
+}
+
+.cardOne:hover{
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.4)
+}
+
+.cardOne span{
+    margin-left: -6px;
+}
+
+.cardOne article{
+    margin-top: -25px;
+    text-indent: 15px;
+    font-size: 18px;
+    top: 232px;
+    text-decoration: none;
+}
+
+.cardOne .price{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.telega{
+    position: absolute;
+    top: 290px;
+    left: 190px;
+	padding: 20px 20px;
+    border-radius: 10px;
+	background-color: #07920e;
+}
+
+.telega-img{
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+
+.telega:hover{
+    background-color: rgba(214, 24, 6, 0.761);
+    transition: 1200ms;
+}
+
+.telejka{
+    height: 30px;
+}
+
+.cardOne a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Open Sans";
+}
+
+.cart{
+    height: 250px;
+}
+
+/* Card 2 */
+
+.cardTwo {
+    position: absolute;
+    background-color: rgb(237, 237, 237);
+    top: 220px;
+    left: 780px;
+    width: 240px;
+}
+
+.cardTwo:hover{
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.4)
+}
+
+.cardTwo article{
+    margin-top: 2px;
+    text-indent: 56px;
+    font-size: 18px;
+    top: 232px;
+    text-decoration: none;
+}
+
+.cardTwo .price{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.telega{
+    position: absolute;
+    top: 290px;
+    left: 190px;
+	padding: 20px 20px;
+    border-radius: 10px;
+	background-color: #07920e;
+}
+
+.telega-img{
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+
+.telega:hover{
+    background-color: rgba(214, 24, 6, 0.761);
+    transition: 1200ms;
+}
+
+.telejka{
+    height: 30px;
+}
+
+.cardTwo a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Open Sans";
+}
+
+
+.carty{
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+/* CARD 3 */
+
+.cardThree {
+    position: absolute;
+    background-color: rgb(237, 237, 237);
+    top: 220px;
+    left: 1060px;
+    width: 240px;
+}
+
+.cardThree:hover{
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.4)
+}
+
+.cardThree article{
+    margin-top: -21px;
+    text-indent: 15px;
+    font-size: 18px;
+    top: 232px;
+    text-decoration: none;
+}
+
+.cardThree .price{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.telega{
+    position: absolute;
+    top: 290px;
+    left: 190px;
+	padding: 20px 20px;
+    border-radius: 10px;
+	background-color: #07920e;
+}
+
+.telega-img{
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+
+.telega:hover{
+    background-color: rgba(214, 24, 6, 0.761);
+    transition: 1200ms;
+}
+
+.telejka{
+    height: 30px;
+}
+
+.cardThree a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Open Sans";
+}
+
+
+.cartyk{
+    height: 250px;
+    margin-left: 20px;
+}
+
+
+
+/* CARD 4 */
+
+.cardFour {
+    position: absolute;
+    background-color: rgb(237, 237, 237);
+    top: 220px;
+    left: 1340px;
+    width: 240px;
+}
+
+.cardFour:hover{
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.4)
+}
+
+.cardFour article{
+    margin-top: -21px;
+    text-indent: 46px;
+    font-size: 18px;
+    top: 232px;
+    text-decoration: none;
+}
+
+.cardFour .price{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.telega{
+    position: absolute;
+    top: 290px;
+    left: 190px;
+	padding: 20px 20px;
+    border-radius: 10px;
+	background-color: #07920e;
+}
+
+.telega-img{
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+
+.telega:hover{
+    background-color: rgba(214, 24, 6, 0.761);
+    transition: 1200ms;
+}
+
+.telejka{
+    height: 30px;
+}
+
+.cardFour a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Open Sans";
+}
+
+
+.iphonelast{
+    height: 280px;
+    margin-top: -28px;
+}
+
+
+/*@media (max-width: 1700px){
+    .header-text {
+        display: flex;
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 1366px){
+    .header-text{
+        display: flex;
+        margin-left: 500px;
+    }
+}
+
+@media (max-width: 1280px){
+    .header-text{
+        display: flex;
+        margin-left: 800px;
+    }
+}
+
+@media (max-width: 1024px){
+    .header-text{
+        display: flex;
+        margin-left: 500px;
+    }
+}
+
+/* Xiaomi redmi note 9 pro */
+
+/*@media (max-width: 1080px){
+
+    .header{
+        padding: 200px;
+        width: 2400px;
+    }
+    .logo{
+        position: absolute;
+        left: 100px;
+        bottom: -40px;
+        height: 150px;
+        width: 550px;
+    }
+    .header-text{
+        display: flex;
+        position: absolute;
+        margin-left: -1400px;
+    }
+    .header-text a{
+        margin-left: 80px;
+        font-size: 54px;
+        margin-top: 100px;
+    }
+
+    .main{
+        position: absolute;
+    }
+}*/ 
