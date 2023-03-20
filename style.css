@@ -135,6 +135,64 @@ body{
     margin-left: 190px;
 }
 
+#pudcatalog{
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    height: 400px;
+    margin-left: 190px;
+    font-size: 0px;
+}
+
+#pudcatalog.active{
+    font-size: 16px;
+}
+
+#pudcatalog{
+    margin-left: 190px;
+    text-indent: 36px;
+    line-height: 40px;
+}
+
+#pudcatalog a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#pudcatalog .onediv:hover{
+    color: #bb00ff;
+}
+
+#pudcatalog .twodiv:hover{
+    color: #bb00ff;
+}
+
+#pudcatalog .threediv:hover{
+    color: #bb00ff;
+}
+
+#pudcatalog .fourdiv:hover{
+    color: #bb00ff;
+}
+
+#pudcatalog .fivediv:hover{
+    color: #bb00ff;
+}
+
+#pudcatalog .sixdiv:hover{
+    color: #bb00ff;
+}
+
+#pudcatalog .sevendiv:hover{
+    color: #bb00ff;
+}
+
+#pudcatalog .eightdiv:hover{
+    color: #bb00ff;
+}
+
+#pudcatalog .ninediv:hover{
+    color: #bb00ff;
+}
 
 #podcatalog{
     margin-left: 190px;
