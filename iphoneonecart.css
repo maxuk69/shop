@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     padding: 0px;
     margin: 0px;
     min-width: 200px;
@@ -141,6 +141,7 @@ body{
      height: 400px;
      margin-left: 190px;
      font-size: 0px;
+     z-index: 2;
  }
  
  #pudcatalog.active{
@@ -156,6 +157,7 @@ body{
  #pudcatalog a{
      color: rgb(0, 0, 0);
      text-decoration: none;
+     z-index: 100;
  }
  
  #pudcatalog .onediv:hover{
@@ -240,5 +242,219 @@ body{
  #podcatalog .ninediv:hover{
      color: #bb00ff;
  }
+
+.main{
+
+}
+
  
- 
+/* Iphone */
+
+.imageiphone{
+    position: absolute;
+    top: 220px;
+    left: 152px;
+    height: 700px;
+}
+
+.Iphoneimage{
+    background-color: rgb(238, 238, 238);
+    height: 600px;
+    width: 600px;
+    margin-left: 192px;
+    margin-top: -325px;
+    z-index: 1;
+}
+
+.card{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5%;
+    width: 600px;
+    height: 150px;
+    margin-left: 650px;
+}
+
+.cardTwo{
+    margin-top: 10px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5%;
+    width: 600px;
+    height: 150px;
+    margin-left: 650px;
+}
+
+.price{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: -85px;
+    font-size: 28px;
+}
+
+.textiphone{
+    line-height: 100px;
+    margin-left: 20px;
+    margin-top: -250px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.buy{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 50px;
+    background-color: rgb(0, 202, 0);
+    border-radius: 10px;
+    width: 160px;
+    height: 60px;
+}
+
+.buy:hover{
+    background-color: #fd0000;
+    transition: 1000ms;
+}
+
+.buyText{
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.cart{
+    position: absolute;
+    height: 35px;
+    left: 10px;
+    top: 10px;
+}
+
+
+.cardThree .card{
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+.text{
+    position: absolute;
+    margin-left: 30px;
+    margin-top:30px;
+}
+
+.black{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+
+.white{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 65px;
+    margin-left: 75px;
+}
+
+.blue{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin-top: 65px;
+    margin-left: 120px;
+}
+
+.yellow{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background-color: #ffd900;
+    border-radius: 50%;
+    margin-top: 65px;
+    margin-left: 165px;
+}
+
+.green{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background-color: #33ff00;
+    border-radius: 50%;
+    margin-top: 65px;
+    margin-left: 210px;
+}
+
+.white:hover{
+    border: solid orange 3px;
+}
+
+.black:hover{
+    border: solid orange 3px;
+}
+
+.blue:hover{
+    border: solid orange 3px;
+}
+
+.yellow:hover{
+    border: solid orange 3px;
+}
+
+.green:hover{
+    border: solid orange 3px;
+}
+
+.oneTB{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 280px;
+    background-color: rgb(255, 255, 255);
+    width: 35px;
+    height: 20px;
+}
+
+.oneTB:hover{
+    border: solid rgb(255, 140, 0) 2px;
+    border-width: 2px;
+}
+
+.twoGB{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 330px;
+    background-color: rgb(255, 255, 255);
+    width: 55px;
+    height: 20px;
+}
+
+.twoGB:hover{
+    border: solid rgb(255, 140, 0) 2px;
+    border-width: 2px;
+}
+
+.threeGB{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 55px;
+    height: 20px;
+}
+
+.threeGB:hover{
+    border: solid rgb(255, 140, 0) 2px;
+    border-width: 2px;
+}
