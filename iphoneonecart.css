@@ -137,16 +137,17 @@ body{
  
  #pudcatalog{
     position: absolute;
-     width: 240px;
-     height: 400px;
-     margin-left: 190px;
-     font-size: 0px;
+    width: 240px;
+    height: 400px;
+    left: -199900px;
+    font-size: 0px;
  }
 
  
  #pudcatalog.active{
     background-color: rgb(255, 255, 255);
     font-size: 18px;
+    left: 0px;
     z-index: 1;
  }
  
