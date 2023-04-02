@@ -100,18 +100,18 @@ body{
      color: #fd0000;
      transition: 300ms;
      font-size: 18px;
-     top: 196px;
-     left: 430px;
+     top: 0px;
+     left: 240px;
      background-color: rgba(221, 221, 221, 1);
      width: 590px;
-     height: 370px;
+     height: 400px;
      z-index: 1;
  }
  
  .catalog{
      position: absolute;
      font-size: 24px;
-     font-family: cursive;
+     font-family: sans-serif;
      bottom: 16px;
      right: 25px;
  }
@@ -129,23 +129,25 @@ body{
  /* podCatalog */
  
  #podcatalog{
-     background-color: rgb(255, 255, 255);
-     width: 240px;
-     height: 400px;
-     margin-left: 190px;
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    height: 400px;
+    margin-left: 190px;
  }
  
  #pudcatalog{
-     background-color: rgb(255, 255, 255);
+    position: absolute;
      width: 240px;
      height: 400px;
      margin-left: 190px;
      font-size: 0px;
-     z-index: 2;
  }
+
  
  #pudcatalog.active{
-     font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    z-index: 1;
  }
  
  #pudcatalog{
@@ -157,7 +159,6 @@ body{
  #pudcatalog a{
      color: rgb(0, 0, 0);
      text-decoration: none;
-     z-index: 100;
  }
  
  #pudcatalog .onediv:hover{
@@ -243,27 +244,28 @@ body{
      color: #bb00ff;
  }
 
-.main{
-
-}
 
  
 /* Iphone */
 
+.main{
+    
+}
+
 .imageiphone{
-    position: absolute;
-    top: 220px;
-    left: 152px;
     height: 700px;
+    width: 700px;
+    margin-top: -50px;
+    margin-left: -40px;
+    z-index: 0;
 }
 
 .Iphoneimage{
     background-color: rgb(238, 238, 238);
-    height: 600px;
     width: 600px;
-    margin-left: 192px;
-    margin-top: -325px;
-    z-index: 1;
+    height: 600px;
+    margin-left: 190px;
+    margin-top: 80px;
 }
 
 .card{
@@ -271,7 +273,8 @@ body{
     border-radius: 5%;
     width: 600px;
     height: 150px;
-    margin-left: 650px;
+    margin-left: 850px;
+    margin-top: -600px;
 }
 
 .cardTwo{
@@ -280,12 +283,11 @@ body{
     border-radius: 5%;
     width: 600px;
     height: 150px;
-    margin-left: 650px;
+    margin-left: 850px;
 }
 
 .price{
-    position: absolute;
-    margin-left: 680px;
+    margin-left: 880px;
     margin-top: -85px;
     font-size: 28px;
 }
@@ -336,7 +338,7 @@ body{
 
 
 .cardThree .card{
-    margin-top: 10px;
+    margin-top: 60px;
     font-size: 18px;
 
 }
