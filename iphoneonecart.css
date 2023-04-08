@@ -6,7 +6,7 @@ body{
  }
  
  .container{ 
-     max-width: 1920px;
+    max-width: 1920px;
  }
  
  .header{
@@ -38,6 +38,7 @@ body{
  .header-logo{
      position: absolute;
      left: 207px;
+     overflow: hidden;
  }
  
  .logo{  
@@ -113,7 +114,7 @@ body{
      font-size: 24px;
      font-family: sans-serif;
      bottom: 16px;
-     right: 25px;
+     right: 30px;
  }
  
  .img-catalog{
@@ -148,7 +149,7 @@ body{
     background-color: rgb(255, 255, 255);
     font-size: 18px;
     left: 0px;
-    z-index: 1;
+    z-index: 2;
  }
  
  #pudcatalog{
@@ -253,29 +254,96 @@ body{
     
 }
 
-.imageiphone{
-    height: 700px;
-    width: 700px;
-    margin-top: -50px;
-    margin-left: -40px;
-    z-index: 0;
+.headerTovar{
+    position: relative;
+    background-color: rgb(238, 238, 238);
+    padding: 40px;
+    width: 1840px;
+    z-index: 1;
 }
 
-.Iphoneimage{
+.headerTrText a{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 170px;
+    color: #000000;
+    font-size: 20px;
+    list-style: none;
+    line-height: 80px;
     background-color: rgb(238, 238, 238);
+    height: 80px;
+    width: 200px;
+    margin-bottom: -200px;
+    margin-top: -40px;
+}
+
+.headerTrText a:hover{
+    background-color: rgb(220, 220, 220);
+}
+
+.headerTrText{
+    display: flex;
+}
+
+.iphoneImage{
+
+}
+
+.imgOne{
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    top: -100px;
+    right: -30px;
+}
+
+.imgTwo{
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    top: -120px;
+    right: -30px;
+}
+
+.imgThree{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    top: -90px;
+    right: 93px;
+}
+
+.slider-box{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    position: relative;
+    
+}
+
+.swiper-container{
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    right: 670px;
+    top: 0;
     width: 600px;
     height: 600px;
-    margin-left: 190px;
-    margin-top: 80px;
+    overflow: hidden;
+}
+
+.swiper-slide{
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 40px;
 }
 
 .card{
+    position: relative;
     background-color: rgb(238, 238, 238);
     border-radius: 5%;
     width: 600px;
     height: 150px;
     margin-left: 850px;
-    margin-top: -600px;
+    margin-top: 300px;
 }
 
 .cardTwo{
@@ -358,6 +426,7 @@ body{
     border-radius: 50%;
     margin-top: 65px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .white{
@@ -368,6 +437,7 @@ body{
     border-radius: 50%;
     margin-top: 65px;
     margin-left: 75px;
+    cursor: pointer;
 }
 
 .blue{
@@ -378,6 +448,7 @@ body{
     border-radius: 50%;
     margin-top: 65px;
     margin-left: 120px;
+    cursor: pointer;
 }
 
 .yellow{
@@ -388,6 +459,7 @@ body{
     border-radius: 50%;
     margin-top: 65px;
     margin-left: 165px;
+    cursor: pointer;
 }
 
 .green{
@@ -398,6 +470,7 @@ body{
     border-radius: 50%;
     margin-top: 65px;
     margin-left: 210px;
+    cursor: pointer;
 }
 
 .white:hover{
@@ -427,6 +500,7 @@ body{
     background-color: rgb(255, 255, 255);
     width: 35px;
     height: 20px;
+    cursor: pointer;
 }
 
 .oneTB:hover{
@@ -441,6 +515,7 @@ body{
     background-color: rgb(255, 255, 255);
     width: 55px;
     height: 20px;
+    cursor: pointer;
 }
 
 .twoGB:hover{
@@ -455,6 +530,7 @@ body{
     background-color: rgb(255, 255, 255);
     width: 55px;
     height: 20px;
+    cursor: pointer;
 }
 
 .threeGB:hover{
